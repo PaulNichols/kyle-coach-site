@@ -7,7 +7,7 @@ const TrophyIcon = () => <svg xmlns="http://www.w3.org/2000/svg" className="h-10
 
 const Programs: React.FC = () => {
   return (
-    <section id="services" className="py-20 sm:py-28 bg-slate-900">
+    <section id="services" className="py-20 sm:py-28 bg-zinc-900">
       <div className="container mx-auto px-6">
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
           <div className="flex justify-center">
@@ -21,33 +21,33 @@ const Programs: React.FC = () => {
             <h2 className="font-serif text-4xl md:text-5xl font-bold mb-10 text-white">Programs Available</h2>
             <div className="space-y-6">
               <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
-                <div className="p-8 rounded-lg bg-slate-950">
-                  <div className="flex items-center justify-center h-16 w-16 rounded-full mb-4 bg-slate-800 text-fuchsia-500">
+                <div className="p-8 rounded-lg bg-zinc-950">
+                  <div className="flex items-center justify-center h-16 w-16 rounded-full mb-4 bg-zinc-800 text-amber-400">
                     <SchoolIcon/>
                   </div>
                   <h3 className="text-2xl font-bold mb-2 text-white">School Programs</h3>
-                  <p className="text-slate-300">Comprehensive basketball programs for primary and secondary schools. From PE curriculum support to competitive team coaching, building skills and school spirit.</p>
+                  <p className="text-zinc-300">Comprehensive basketball programs for primary and secondary schools. From PE curriculum support to competitive team coaching, building skills and school spirit.</p>
                 </div>
-                <div className="p-8 rounded-lg bg-slate-950">
-                 <div className="flex items-center justify-center h-16 w-16 rounded-full mb-4 bg-slate-800 text-fuchsia-500">
+                <div className="p-8 rounded-lg bg-zinc-950">
+                 <div className="flex items-center justify-center h-16 w-16 rounded-full mb-4 bg-zinc-800 text-amber-400">
                     <ClubIcon/>
                   </div>
                   <h3 className="text-2xl font-bold mb-2 text-white">Club Coaching</h3>
-                  <p className="text-slate-300">Professional coaching for local basketball clubs including junior development, senior teams, and representative squad preparation. Structured training for all skill levels.</p>
+                  <p className="text-zinc-300">Professional coaching for local basketball clubs including junior development, senior teams, and representative squad preparation. Structured training for all skill levels.</p>
                 </div>
               </div>
-              <div className="p-8 rounded-lg bg-slate-950">
-                <div className="flex items-center justify-center h-16 w-16 rounded-full mb-4 bg-slate-800 text-fuchsia-500">
+              <div className="p-8 rounded-lg bg-zinc-950">
+                <div className="flex items-center justify-center h-16 w-16 rounded-full mb-4 bg-zinc-800 text-amber-400">
                     <TrophyIcon/>
                   </div>
                 <h3 className="text-2xl font-bold mb-2 text-white">Competition Prep</h3>
-                <p className="text-slate-300">Specialized coaching for tournaments and competitions. Game strategy development, team coordination, and performance optimization for competitive success.</p>
+                <p className="text-zinc-300">Specialized coaching for tournaments and competitions. Game strategy development, team coordination, and performance optimization for competitive success.</p>
               </div>
             </div>
             <div className="mt-10">
                <a 
                 href="#contact" 
-                className="px-8 py-3 font-bold rounded-md transition-all duration-300 bg-fuchsia-600 text-white hover:bg-fuchsia-700 hover:shadow-lg hover:shadow-fuchsia-600/40 transform hover:-translate-y-1"
+                className="px-8 py-3 font-bold rounded-md transition-all duration-300 bg-amber-500 text-black hover:bg-amber-600 hover:shadow-lg hover:shadow-amber-500/30 transform hover:-translate-y-1"
                 aria-label="Start Training Now"
               >
                 Start Training Now

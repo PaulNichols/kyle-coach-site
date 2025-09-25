@@ -31,7 +31,7 @@ const PlayerDevelopment: React.FC = () => {
     ];
 
   return (
-    <section id="programs" className="py-20 sm:py-28 bg-slate-900">
+    <section id="programs" className="py-20 sm:py-28 bg-zinc-900">
       <div className="container mx-auto px-6">
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
             <div>
@@ -39,10 +39,10 @@ const PlayerDevelopment: React.FC = () => {
                  <div className="space-y-8">
                      {programs.map(program => (
                         <div key={program.title} className="flex items-start">
-                            <div className="flex-shrink-0 text-fuchsia-500">{program.icon}</div>
+                            <div className="flex-shrink-0 text-amber-400">{program.icon}</div>
                             <div>
                                 <h3 className="text-2xl font-bold mb-2 text-white">{program.title}</h3>
-                                <p className="text-slate-300">{program.description}</p>
+                                <p className="text-zinc-300">{program.description}</p>
                             </div>
                         </div>
                      ))}
@@ -50,7 +50,7 @@ const PlayerDevelopment: React.FC = () => {
                  <div className="mt-10">
                     <a 
                         href="#contact" 
-                        className="px-8 py-3 font-bold rounded-md transition-all duration-300 bg-fuchsia-600 text-white hover:bg-fuchsia-700 hover:shadow-lg hover:shadow-fuchsia-600/40 transform hover:-translate-y-1"
+                        className="px-8 py-3 font-bold rounded-md transition-all duration-300 bg-amber-500 text-black hover:bg-amber-600 hover:shadow-lg hover:shadow-amber-500/30 transform hover:-translate-y-1"
                          aria-label="Start Training Now"
                     >
                         Start Training Now

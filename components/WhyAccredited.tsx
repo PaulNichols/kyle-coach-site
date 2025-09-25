@@ -25,11 +25,11 @@ const WhyAccredited: React.FC = () => {
   ];
 
   return (
-    <section className="py-20 sm:py-28 bg-slate-950">
+    <section className="py-20 sm:py-28 bg-zinc-950">
       <div className="container mx-auto px-6">
         <div className="text-center">
           <h2 className="font-serif text-4xl md:text-5xl font-bold mb-6 text-white">Why Choose Accredited Coaching?</h2>
-          <p className="mt-4 text-lg text-slate-300 max-w-3xl mx-auto">
+          <p className="mt-4 text-lg text-zinc-300 max-w-3xl mx-auto">
             Choosing an accredited coach means you're investing in a structured, safe, and professional development pathway recognized by Australia's national basketball authority.
           </p>
         </div>
@@ -38,19 +38,19 @@ const WhyAccredited: React.FC = () => {
             <img 
               src="/user_upload/accreditation-framework.png" 
               alt="Basketball Australia Coach Accreditation Framework diagram"
-              className="rounded-lg shadow-2xl object-contain w-full max-w-4xl bg-white p-4"
+              className="rounded-lg shadow-2xl object-contain w-full max-w-4xl bg-zinc-800/50 p-4 backdrop-blur-sm"
             />
         </div>
         
         <div className="grid grid-cols-1 md:grid-cols-3 gap-8 text-left">
           {benefits.map((item) => (
-            <div key={item.title} className="bg-slate-900 p-8 rounded-lg">
-                <div className="flex-shrink-0 text-fuchsia-500 mb-4">
+            <div key={item.title} className="bg-zinc-900 p-8 rounded-lg">
+                <div className="flex-shrink-0 text-amber-400 mb-4">
                    {item.icon}
                 </div>
                 <div>
                     <h3 className="text-2xl font-bold mb-2 text-white">{item.title}</h3>
-                    <p className="text-slate-300">{item.description}</p>
+                    <p className="text-zinc-300">{item.description}</p>
                 </div>
             </div>
           ))}

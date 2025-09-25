@@ -12,7 +12,7 @@ import Footer from './components/Footer';
 
 const App: React.FC = () => {
   return (
-    <div className="bg-slate-950 text-slate-200 font-sans">
+    <div className="bg-zinc-950 text-zinc-200 font-sans">
       <Header />
       <main>
         <Hero />

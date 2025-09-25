@@ -13,14 +13,14 @@ const Header: React.FC = () => {
   }, []);
 
   return (
-    <header className={`fixed top-0 left-0 right-0 z-50 transition-all duration-300 ${isScrolled ? 'bg-slate-950/80 backdrop-blur-sm' : 'bg-transparent'}`}>
+    <header className={`fixed top-0 left-0 right-0 z-50 transition-all duration-300 ${isScrolled ? 'bg-zinc-950/80 backdrop-blur-sm' : 'bg-transparent'}`}>
       <div className="container mx-auto px-6 py-4 flex justify-between items-center">
         <a href="#home" className="text-xl md:text-2xl font-bold tracking-wider text-white">
-          Kyle Nichols <span className="text-fuchsia-500">Coaching</span>
+          KN <span className="text-amber-400">Coaching</span>
         </a>
         <nav className="hidden md:flex space-x-8">
           {NAV_LINKS.map((link) => (
-            <a key={link.name} href={link.href} className="text-slate-300 hover:text-fuchsia-500 transition-colors duration-200 text-lg">
+            <a key={link.name} href={link.href} className="text-zinc-300 hover:text-amber-400 transition-colors duration-200 text-lg">
               {link.name}
             </a>
           ))}
